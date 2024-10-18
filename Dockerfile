@@ -11,7 +11,7 @@ COPY  . /usr/src/app
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Make port 5000 available to the world outside this container
-EXPOSE 5050
+EXPOSE 5070
 
 # Run the Flask server when the container launches
 CMD ["python", "-u", "app.py"]
